@@ -1,0 +1,2 @@
+# KRA
+Hash generation code
