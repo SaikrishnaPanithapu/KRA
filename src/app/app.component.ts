@@ -32,7 +32,6 @@ export class AppComponent {
   DIGITS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'];
   forge = forge;
   ngOnInit() {
-    // console.log(asn1.decode);
     console.log(this.forge);
 
     /*
@@ -67,6 +66,9 @@ export class AppComponent {
     }
     const encyptedHash = outss.toString().replace(/,/g, '');
     console.log(encyptedHash);
+    /*
+    encyptedHash is the final string need to be sent to kra server.
+    */
 
     /*
       =====================================
@@ -144,6 +146,9 @@ export class AppComponent {
       }
       const encyptedHash = out.toString().replace(/,/g, '');
       console.log(encyptedHash);
+      /*
+    encyptedHash is the final string need to be sent to kra server.
+    */
     });
     /*
     =====================================
@@ -169,6 +174,9 @@ export class AppComponent {
     }
     const str = out.toString().replace(/,/g, '');
     console.log(str);
+    /*
+    str is the final string need to be sent to kra server.
+    */
     /*
     =====================================
     end
