@@ -40,6 +40,7 @@ export class AppComponent {
       =====================================
    */
     this.hashValue = sha256('A2020-07-220P051505257JKRAMW563202007004955');
+    //this.hashValue is the data to be encrypted
     const publicKeyFromPem = this.forge.pki.publicKeyFromPem(this.pemPublicKey);
     let encode = new TextEncoder();
     const bytesforge = encode.encode(this.hashValue);
